@@ -1,0 +1,106 @@
+{
+	"Format": "1.20.0",
+	"ConfigSchema": {
+		"EnableMod": {
+			"AllowValues": "true, false",		
+			"Default": "true"
+		},
+		"Alex": {
+			"AllowValues": "enabled, disabled",		
+			"Default": "enabled"
+		},
+		"Elliott": {
+			"AllowValues": "enabled, disabled",		
+			"Default": "enabled"
+		},
+		"Harvey": {
+			"AllowValues": "enabled, disabled",		
+			"Default": "enabled"
+		},
+		"Sam": {
+			"AllowValues": "enabled, disabled",		
+			"Default": "enabled"
+		},
+	},
+	"Changes": [
+		//Alex
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Alex",
+			"FromFile": "assets/portraits/Alex.png",
+			"When": {
+				"EnableMod": "true",
+				"Alex": "enabled"
+			}
+		},
+		//Elliott
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott",
+			"FromFile": "assets/portraits/Elliott.png",
+			"When": {
+				"EnableMod": "true",
+				"Elliott": "enabled"
+			}
+		},
+		//Harvey
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey",
+			"FromFile": "assets/portraits/Harvey.png",
+			"When": {
+				"EnableMod": "true",
+				"Harvey": "enabled"
+			}
+		},
+		//Sam
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sam",
+			"FromFile": "assets/portraits/Sam.png",
+			"When": {
+				"EnableMod": "true",
+				"Sam": "enabled"
+			}
+		},
+				{
+			"Action": "EditImage",
+			"Target": "Characters/Alex",
+			"FromFile": "assets/characters/Alex.png",
+			"When": {
+				"EnableMod": "true",
+				"Alex": "enabled"
+			}
+		},
+		//Elliott
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Elliott",
+			"FromFile": "assets/characters/Elliott.png",
+			"When": {
+				"EnableMod": "true",
+				"Elliott": "enabled"
+			}
+		},
+		//Harvey
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Harvey",
+			"FromFile": "assets/characters/Harvey.png",
+			"When": {
+				"EnableMod": "true",
+				"Harvey": "enabled"
+			}
+		},
+		//Sam
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sam",
+			"FromFile": "assets/characters/Sam.png",
+			"When": {
+				"EnableMod": "true",
+				"Sam": "enabled"
+			}
+		},
+	]
+}

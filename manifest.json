@@ -1,0 +1,11 @@
+{
+    "Name": "Genderswap",
+    "Author": "TorchedSammy",
+    "Version": "1.0.0",
+    "Description": "Turns the main male characters to females",
+    "UniqueID": "TorchedSammy.Genderswap",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
